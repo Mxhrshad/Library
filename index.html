@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Library/style.css">
+    <title>My Library</title>
+</head>
+<body>
+    <div id="container">
+        <div id="shelf">
+            <div id="books"></div>
+            <button id="newBookbtn">Add +</button>
+        </div>
+    </div>
+
+
+
+    <div id="newBook">
+        <div id="form-container">
+            <div class="inputs">
+                <form id="inputs">
+                    <label for="title">* Title:</label>
+                    <input type="text" id="title" name="title" required>
+                    <label for="author">* Author:</label>
+                    <input type="text" id="author" name="author" required>
+                    <label for="pages">* Number Of Pages:</label>
+                    <input type="num" id="pages" name="pages" required>
+                    <p>* Have You Read The Book?</p>
+                    <div class="checkbox">
+                        <label for="read">yup</label>
+                        <input type="checkbox" name="checkbox" id="read">
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" id="submit-btn">
+                    </div>
+                </form>
+                <button id="cancel">Cancel</button>
+            </div>
+            <img src="../Library/books.jpg" alt="" class="img">
+        </div>
+    </div>
+
+
+
+
+
+    <script src="../Library/main.js"></script>
+</body>
+</html>
